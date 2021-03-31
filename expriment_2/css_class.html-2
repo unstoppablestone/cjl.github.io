@@ -2,14 +2,12 @@
 <head>
 <style type="text/css">
 .important {font-weight:bold;}
-.warning {font-style:italic;}
 </style>
 </head>
 
 <body>
 <p class="important">cjlsnd</p>
 
-<p class="warning">hahahahahahaa</p>
 
 <p>haode xiexie</p>
 
