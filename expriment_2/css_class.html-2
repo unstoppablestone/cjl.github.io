@@ -2,7 +2,7 @@
 <head>
 <style type="text/css">
 .important {font-weight:bold;}
-.warning {font-style:Copperplate;}
+.warning {font-style:italic;}
 </style>
 </head>
 
