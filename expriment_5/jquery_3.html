@@ -1,0 +1,25 @@
+<html>
+<head>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div=$("div");
+    div.animate({height:'600px',opacity:'0.4'},"slow");
+    div.animate({width:'600px',opacity:'1.2'},"slow");
+    div.animate({height:'100px',opacity:'0.4'},"slow");
+    div.animate({width:'100px',opacity:'1，2'},"slow");
+  });
+});
+</script> 
+</head>
+ 
+<body>
+
+<button>点击</button>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;">
+</div>
+
+</body>
+</html>
