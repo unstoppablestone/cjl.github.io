@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".ex .hide").click(function(){
+    $(this).parents(".ex").hide("slow");
+  });
+});
+</script>
+<style type="text/css"> 
+div.ex
+{
+background-color:#e5eecc;
+padding:7px;
+border:solid 1px #c3c3c3;
+}
+</style>
+</head>
+ 
+<body>
+
+<h3>202网咖</h3>
+<div class="ex">
+<button class="hide" type="button">隐藏</button>
+<p>联系人：陈佳乐<br /> 
+孝陵卫街道200幢 202舍<br />
+南京</p>
+</div>
+
+<h3>201娱乐会所</h3>
+<div class="ex">
+<button class="hide" type="button">隐藏</button>
+<p>联系人：阿力普江<br /> 
+孝陵卫街道200幢  201舍<br />
+南京</p>
+</div>
+
+</body>
+</html>
